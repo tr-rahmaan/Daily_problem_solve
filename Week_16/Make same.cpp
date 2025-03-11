@@ -34,6 +34,7 @@ int main() {
         }
 
         int ned0 = zer/3;
+          int ned1 = on/3;
 
         int cnt=0;
 
@@ -42,7 +43,11 @@ int main() {
         if (zer2 > ned0) cnt+=(zer2  -ned0);
         if (zer3 > ned0) cnt+=(zer3 - ned0);
 
-        cout <<cnt<< "\n";
+          if (on1>ned1) cnt+=(on1 -ned1);
+        if (on2 > ned1) cnt+=(on2  -ned1);
+        if (zer3 > ned1) cnt+=(on3 - ned1);
+
+        cout <<cnt/1<< "\n";
     }
     return 0;
 }
